@@ -1,0 +1,17 @@
+name = Longeva User Interface
+description = Image styles, languages, text formats, wysiwyg
+core = 7.x
+package = Longeva
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = locale
+dependencies[] = wysiwyg
+features[features_api][] = api:1
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = plain_text
+features[language][] = en
+features[language][] = pt-br
+features[wysiwyg][] = filtered_html
+features[wysiwyg][] = full_html
+features[wysiwyg][] = plain_text
