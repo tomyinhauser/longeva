@@ -26,7 +26,6 @@ dependencies[] = menu
 dependencies[] = module_filter
 dependencies[] = number
 dependencies[] = options
-dependencies[] = overlay
 dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = rdf
