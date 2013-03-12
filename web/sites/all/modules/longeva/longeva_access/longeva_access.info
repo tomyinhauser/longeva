@@ -12,7 +12,6 @@ dependencies[] = locale
 dependencies[] = menu
 dependencies[] = module_filter
 dependencies[] = node
-dependencies[] = overlay
 dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = realname
