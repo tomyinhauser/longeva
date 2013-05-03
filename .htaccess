@@ -1,0 +1,4 @@
+<Files ~ "(CHANGELOG.txt|COPYRIGHT.txt|INSTALL.*|install.php|LICENSE.txt|MAINTAINERS.txt|README.txt|UPGRADE.txt)">
+  order deny,allow
+  deny from all
+</Files>
