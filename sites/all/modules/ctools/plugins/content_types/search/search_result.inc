@@ -92,7 +92,7 @@ function ctools_search_result_content_type_render($subtype, $conf, $panel_args, 
     $output .= "</ol>\n";
     $output .= theme('pager', array('tags' => NULL));
 
-    //$block->title = t('Search results');
+    $block->title = t('Search results');
     $block->content = $output;
   }
   else {
