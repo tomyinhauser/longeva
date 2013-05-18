@@ -1,3 +1,7 @@
+/*
+ * View: casos de sucesso
+ */
+
 .view-casos-sucesso .view-content > div {
   width: 280px;
   float: left;
@@ -5,4 +9,27 @@
 
 .view-casos-sucesso .view-content > div + div {
   margin-left: 30px;
+}
+
+/*
+ * Formulario: contato
+ */
+
+#contact-site-form .form-item {
+  float: left;
+  clear: left;
+}
+
+#contact-site-form .form-item.form-item-message {
+  float: right;
+  clear: none;
+  margin-top: -175px;
+}
+
+#contact-site-form .form-item.form-item-message textarea {
+  height: 220px;
+}
+
+#contact-site-form .form-actions {
+  float: right;
 }

@@ -1,5 +1,0 @@
-name = Longeva Presentation
-description = Views
-core = 7.x
-package = Longeva
-features[features_api][] = api:1

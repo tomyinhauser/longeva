@@ -5,5 +5,5 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-files/private/*
-files/tmp/*
+# Ignore sublime project files
+*.sublime-*
