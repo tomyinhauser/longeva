@@ -2,7 +2,7 @@ body { font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica
 
 h1, h2, h3, h4, h5, h6 { margin:25px 0 10px 0; line-height:120%; text-shadow: 1px 1px 1px #EAF1EA; font-family: Myriad Pro,"Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif; }
 
-h1 { font-size: 32px; margin:0 0 20px 0; }
+h1 { font-size: 32px; }
 
 h2 { font-size: 25px; color:#1487d4; font-weight:bold; }
 
@@ -43,7 +43,7 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 
 .breadcrumb-separator { padding:0 8px 0 4px; }
 
-.submitted { margin:-15px 0 20px 0; font-size: 85%; text-transform: uppercase; }
+.submitted { margin:-5px 0 20px 0; font-size: 85%; text-transform: uppercase; }
 
 .region-sidebar-first .block h2, .region-sidebar-second .block h2 { padding:0 0 5px 0; }
 
@@ -117,7 +117,7 @@ padding: 20px; overflow:hidden; margin:0 0 40px 0;
 
 .region-sidebar-first ul.menu, .region-sidebar-second ul.menu {  margin:0; padding:0; }
 
-.region-sidebar-first ul.menu li, .region-sidebar-second ul.menu li { list-style:none; margin:0; padding:5px; border-bottom:1px solid #e7e7e7; display:block; }
+.region-sidebar-first ul.menu li, .region-sidebar-second ul.menu li { list-style:none; margin:0; padding:5px; border-bottom:1px dotted #e7e7e7; display:block; }
 
 .region-sidebar-first ul.menu ul.menu, .region-sidebar-second ul.menu ul.menu { padding:0 0 0 15px; }
 
@@ -616,4 +616,14 @@ ul.primary li a, ul.tabs li a { margin:0; padding: 4px 1em; display: inline-bloc
   position: absolute;
   bottom: 15px;
   right: 10px;
+}
+
+/*
+ * Book navigation
+ */
+
+.book-navigation .menu,
+.book-navigation .page-links {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: none;
 }
