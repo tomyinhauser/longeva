@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Longeva Produtos feature.
+ */
+
+include_once 'longeva_feature_produtos.features.inc';

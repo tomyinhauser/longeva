@@ -106,3 +106,15 @@
 .block-bookblock .leaf a:hover {
   color: #7a7a7a;
 }
+
+/*
+ * Product page
+ */
+
+.node-produto .group-left {
+  width: 20%;
+}
+
+.node-produto .group-right {
+  width: 80%;
+}
