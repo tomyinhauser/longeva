@@ -1,4 +1,21 @@
 /*
+ * Slogan
+ */
+
+#slogan {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-top: 1px dotted #656565;
+  padding-top: 4px;
+}
+
+#header-inside-left a img {
+  width: 342px;
+  margin-bottom: 3px;
+}
+
+/*
  * Field defaults
  */
 
@@ -87,5 +104,5 @@
 
 .block-bookblock .leaf a,
 .block-bookblock .leaf a:hover {
-  color: black;
+  color: #7a7a7a;
 }

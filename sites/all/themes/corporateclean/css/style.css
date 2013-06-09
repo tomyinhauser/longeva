@@ -107,13 +107,21 @@ blockquote { background:transparent url('images/blockquote.png') no-repeat top l
 /*
 * Sidebar Blocks - Menus
 */
-.region-sidebar-first .block .content, .region-sidebar-second .block .content  { border:1px solid #ffffff; 
+.region-sidebar-first .block .content, .region-sidebar-second .block .content  {
+border:1px solid #ffffff; 
 -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; 
 padding: 20px; overflow:hidden; margin:0 0 40px 0;
  /* shadow */
--webkit-box-shadow: 0 2px 6px #efefef inset;  -moz-box-shadow:0 2px 6px #efefef inset;  box-shadow:0 2px 6px #efefef inset; }
+-webkit-box-shadow: 0 2px 6px #efefef inset;  -moz-box-shadow:0 2px 6px #efefef inset;  box-shadow:0 2px 6px #efefef inset; 
+}
 
-.region-sidebar-first #block-block-2.block .content, .region-sidebar-second #block-block-2.block .content { background:none; border:none; padding:0; -webkit-box-shadow: none;  -moz-box-shadow:none;  box-shadow:none; }
+.region-sidebar-first .block .content p {
+  margin: 0 0 10px 0;
+}
+
+.region-sidebar-first .block .content p:last-child {
+  margin-bottom: 0;
+}
 
 .region-sidebar-first ul.menu, .region-sidebar-second ul.menu {  margin:0; padding:0; }
 
