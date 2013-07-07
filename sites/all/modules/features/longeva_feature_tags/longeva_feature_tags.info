@@ -1,0 +1,15 @@
+name = Longeva Tags
+core = 7.x
+package = Longeva Features
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = tags
+features[user_permission][] = delete terms in 1
+features[user_permission][] = edit terms in 1
+features[variable][] = pathauto_taxonomy_term_tags_pattern
+project path = sites/all/modules/features

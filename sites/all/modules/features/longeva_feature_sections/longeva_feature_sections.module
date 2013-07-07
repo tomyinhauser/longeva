@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Longeva Sections feature.
+ */
+
+include_once 'longeva_feature_sections.features.inc';
