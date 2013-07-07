@@ -1,0 +1,332 @@
+/*
+ * Colors
+ */
+
+#menu-bar-wrapper ul.menu li a:hover,
+#menu-bar-wrapper ul.menu li a:focus,
+#menu-bar-wrapper ul.menu li a:active,
+#menu-bar-wrapper ul.menu li a.active,
+#menu-bar-wrapper ul.menu li.active-trail > a.active-trail {
+  background: url(../../images/bg-nav-active.gif) 0 0 repeat-x #1C681C;
+}
+
+#menu-bar-wrapper ul.menu ul {
+  border: 1px solid #dadada;
+}
+
+a,
+a:hover {
+  color: #1C681C;
+}
+
+.sidebar .block-views .views-field-title .field-content a:hover,
+.sidebar .block-views .views-field-title .field-content a:focus,
+.sidebar .block-views .views-field-title .field-content a:active {
+  color: #69980a;
+}
+
+.node-title a:hover,
+.node-title a:active,
+.node-title a:focus,
+.region-content .view .views-row .views-field-title a:hover,
+.region-content .view .views-row .views-field-title a:active,
+.region-content .view .views-row .views-field-title a:focus,
+.region-content .view .views-row .views-field-name a:hover,
+.region-content .view .views-row .views-field-name a:active,
+.region-content .view .views-row .views-field-name a:focus {
+  color: #69980a;
+}
+
+/*
+ * Logo image
+ */
+
+#logo img {
+  width: 300px;
+}
+
+/*
+ * Horizontal line.
+ */
+
+hr {
+  border: none;
+  border-bottom: 1px dotted #dadada;
+}
+
+/*
+ * Media image.
+ */
+
+.media-image {
+  border: 1px solid #dadada;
+  padding: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*
+ * Views name field.
+ */
+
+.sidebar .block-views .views-field-title .field-content a.active {
+  color: #999;
+}
+
+.sidebar .block-views .views-field-title .field-content a.active:before {
+  content: url(../images/arrow-back.png);
+  margin-right: 5px;
+}
+
+/*
+ * Custom quote block.
+ */
+
+.block-custom-quote .block-inner {
+  font-family: Arial;
+}
+
+.block-custom-quote .block-inner p {
+  margin: 0;
+}
+
+.block-custom-quote .block-inner .mailto {
+  font-size: 0.8em;
+}
+
+.block-custom-quote .block-inner span.mailto {
+  display: none;
+}
+
+/*
+ * Blog teasers block.
+ */
+
+.region-content .block-views .block-inner {
+  padding: 0;
+}
+
+.region-content .view.view-blog .views-row .views-field-title {
+  font-family: 'oswaldregular';
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0 0 10px;
+}
+
+.region-content .view.view-blog .views-row .views-field-title a {
+  color: #787878;
+}
+
+/*
+ * Blog navigation.
+ */
+
+ ul.inline li.blog_usernames_blog {
+   display: none;
+ }
+
+.view-blog-sections {
+  display: table;
+  margin: auto;
+  padding: 7px 0;
+}
+
+.view-blog-sections .item-list ul li {
+  list-style: none;
+  background: none;
+  float: left;
+  font-family: 'oswaldregular';
+  font-size: 1.16em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.view-blog-sections .item-list ul li a {
+  color: #999;
+}
+
+.view-blog-sections .item-list ul li a.active,
+.view-blog-sections .item-list ul li a:hover {
+  color: #333;
+}
+
+/*
+ * Contact form.
+ */
+
+.contact-form {
+  position: relative;
+}
+
+.contact-form .form-item {
+  width: 40%;
+  float: left;
+  clear: left;
+}
+
+.contact-form .form-type-textarea {
+  width: 58%;
+}
+
+.contact-form .form-item input,
+.contact-form .form-item textarea {
+  width: 100%;
+}
+
+.contact-form .form-type-textarea {
+  position: absolute;
+  right: 0;
+}
+
+.contact-form .form-textarea {
+  height: 138px;
+}
+
+.contact-form .form-actions {
+  clear: left;
+  padding-top: 10px;
+  text-align: right;
+}
+
+/*
+ * Views exposed widget
+ */
+
+.views-exposed-widget {
+  float: left;
+  margin-right: 10px;
+  line-height: 0.3em;
+}
+
+/*
+ * Hightlights carousel
+ */
+
+.view-slideshow,
+.view-slideshow .flexslider ul.slides,
+.view-slideshow .flexslider ul.slides li,
+.view-slideshow .flexslider ul.slides li .node {
+  position: relative;
+  width: 960px;
+  height: 330px;
+}
+
+.view-slideshow .flexslider {
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  -webkit-border-radius: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.view-slideshow .flexslider ul.slides li {
+  margin: 0;
+}
+
+.view-slideshow .ds-2col > .group-left,
+.view-slideshow .ds-2col > .group-right {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.view-slideshow .ds-2col > .group-left {
+  top: 0;
+}
+
+.view-slideshow .ds-2col > .group-right {
+  bottom: 15px;
+  background: url(../images/bg-black.png) 0 0 repeat;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+}
+
+.view-slideshow .ds-2col > .group-right .field {
+  padding: 0px 20px;
+}
+
+.view-slideshow .field-name-title h2 {
+  font-family: 'oswaldregular';
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.view-slideshow .field-name-field-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.view-slideshow .field-name-field-link a {
+  width: 960px;
+  height: 330px;
+  display: table;
+  text-indent: -999px;
+}
+
+.view-slideshow .field-type-image {
+  margin: 0;
+}
+
+.view-slideshow .field-type-image img {
+  padding: 0;
+  border: none;
+}
+
+.view-slideshow .flex-control-nav {
+  top: 10px;
+  left: 5px;
+  text-align: left;
+}
+
+.view-slideshow .flex-direction-nav {
+  z-index: 30;
+}
+
+/*
+ * Footer menu
+ */
+
+.panel-third .block ul.menu li {
+  border: none;
+  margin: 0 !important;
+}
+
+.panel-third .block ul.menu li a,
+.panel-third .block ul.menu li a:visited {
+  color: #c9c9c9;
+}
+
+.panel-third .block a,
+.panel-third .block a:visited,
+.panel-third .block a:hover,
+.panel-third .block ul.menu li a:hover {
+  color: #fff;
+}
+
+/*
+ * Breadcrumb
+ */
+
+#breadcrumb-wrapper h2 {
+  display: none;
+}
+
+/*
+ * LinkedIn Profile
+ */
+
+.page-node-46 .region-content .block-system {
+  width: 530px;
+  float: left;
+}
+
+.page-node-46 .region-content .block-block {
+  float: right;
+  margin-top: -30px;
+}
