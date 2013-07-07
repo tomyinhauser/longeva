@@ -1,0 +1,11 @@
+name = Longeva Social
+core = 7.x
+package = Longeva Features
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = menu-acompanhe
+features[menu_links][] = menu-acompanhe:blog
+features[menu_links][] = menu-acompanhe:http://br.linkedin.com/pub/marcio-rubens-inhauser/4b/715/a49
+features[menu_links][] = menu-acompanhe:https://twitter.com/empresalongeva
+project path = sites/all/modules/features

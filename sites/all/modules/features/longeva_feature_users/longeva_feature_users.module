@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Longeva Users feature.
+ */
+
+include_once 'longeva_feature_users.features.inc';

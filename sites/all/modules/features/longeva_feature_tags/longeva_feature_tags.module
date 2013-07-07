@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Longeva Tags feature.
+ */
+
+include_once 'longeva_feature_tags.features.inc';
