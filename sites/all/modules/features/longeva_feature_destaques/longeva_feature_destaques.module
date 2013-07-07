@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Longeva Destaques feature.
+ */
+
+include_once 'longeva_feature_destaques.features.inc';
