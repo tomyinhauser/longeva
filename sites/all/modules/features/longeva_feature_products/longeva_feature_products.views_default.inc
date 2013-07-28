@@ -22,7 +22,7 @@ function longeva_feature_products_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Consultoria';
+  $handler->display->display_options['title'] = 'Produtos';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['use_more_text'] = 'mais';
   $handler->display->display_options['access']['type'] = 'perm';
@@ -74,16 +74,16 @@ function longeva_feature_products_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'node';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
-  $handler->display->display_options['path'] = 'consultoria';
+  $handler->display->display_options['path'] = 'produto';
   $handler->display->display_options['menu']['type'] = 'normal';
-  $handler->display->display_options['menu']['title'] = 'Consultoria';
+  $handler->display->display_options['menu']['title'] = 'Produtos';
   $handler->display->display_options['menu']['weight'] = '0';
   $handler->display->display_options['menu']['name'] = 'main-menu';
   $handler->display->display_options['menu']['context'] = 0;
   $handler->display->display_options['menu']['context_only_inline'] = 0;
   $translatables['produtos'] = array(
     t('Master'),
-    t('Consultoria'),
+    t('Produtos'),
     t('mais'),
     t('Aplicar'),
     t('Restaurar'),
