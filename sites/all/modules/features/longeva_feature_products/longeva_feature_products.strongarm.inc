@@ -82,7 +82,7 @@ function longeva_feature_products_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_parent_produtos';
-  $strongarm->value = 'main-menu:924';
+  $strongarm->value = 'main-menu:944';
   $export['menu_parent_produtos'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -110,7 +110,7 @@ function longeva_feature_products_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_produtos_pattern';
-  $strongarm->value = 'consultoria/[node:title]';
+  $strongarm->value = 'produto/[node:title]';
   $export['pathauto_node_produtos_pattern'] = $strongarm;
 
   $strongarm = new stdClass();

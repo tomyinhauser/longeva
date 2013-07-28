@@ -15,7 +15,7 @@ function longeva_feature_products_menu_default_menu_links() {
     'menu_name' => 'main-menu',
     'link_path' => 'consultoria',
     'router_path' => 'consultoria',
-    'link_title' => 'Consultoria',
+    'link_title' => 'Produtos',
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -24,13 +24,13 @@ function longeva_feature_products_menu_default_menu_links() {
     'module' => 'system',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 1,
+    'has_children' => 0,
     'expanded' => 1,
     'weight' => -49,
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Consultoria');
+  t('Produtos');
 
 
   return $menu_links;
