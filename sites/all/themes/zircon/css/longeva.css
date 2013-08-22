@@ -152,6 +152,15 @@ hr {
 }
 
 /*
+ * Corrects masonry buggy IE behavior.
+ */
+
+.masonry .block.masonry-brick {
+  position: relative !important;
+  top: 0 !important;
+}
+
+/*
  * Contact form.
  */
 
